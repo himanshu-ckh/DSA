@@ -13,6 +13,11 @@ package ctci.array_and_strings;
 
  */
 public class ArraysAndStrings3 {
+    /**
+     * This method is brute force because it uses extra space
+     * Time: O(n)
+     * Space: O(n)
+     */
     public static char[] urlifyBruteforce(char[] str, int trueLength) {
         char[] res = new char[str.length];
 
@@ -33,7 +38,12 @@ public class ArraysAndStrings3 {
         return res;
     }
 
-    public static char[] urlify(char[] str, int trueLength) {
+    /**
+     * This method doesnt use extra space and does in place
+     * Time: O(n)
+     * Space: O(1)
+     */
+    public static char[] urlify(char[] str, int trueLength) { //"Mr John Smith    ", 13
         int spaces = 0;
         for (int i = 0; i < trueLength; i++) {
             if (str[i] == ' ') {

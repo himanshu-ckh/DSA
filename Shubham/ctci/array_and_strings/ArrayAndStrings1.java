@@ -1,5 +1,8 @@
 package ctci.array_and_strings;
 
+/**
+ * checks if a string has all unique characters
+ */
 public class ArrayAndStrings1 {
     public static boolean hasAllUnique(String input) {
         int[] letters = new int[128];
