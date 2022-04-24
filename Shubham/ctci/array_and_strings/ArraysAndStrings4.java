@@ -6,7 +6,8 @@ import java.util.Map;
 
 /**
  * Check if a given string is a permutation of a palindrome
- * tact cao -- tactcao -- tacocat
+ * tact cao -- tacocat  -- True
+ * Tact Cob -- False
  */
 public class ArraysAndStrings4 {
     public static boolean isPermutationOfPalindrome(String input) {
