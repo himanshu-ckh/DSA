@@ -10,7 +10,28 @@ public class LinkedList2 {
         head.next.next.next = new Node(4);
         head.next.next.next.next = new Node(6);
 
-        System.out.println(getKthToLastElement(head, 6));
+        System.out.println(getKthToLastElement(head, 5));
+        System.out.println(getKthToLastElement(head, 5) == getKthToLastElementOptimized(head, 5));
+        System.out.println(getKthToLastElement(head, 1) == getKthToLastElementOptimized(head, 1));
+        System.out.println(getKthToLastElement(head, 2) == getKthToLastElementOptimized(head, 3));
+    }
+
+    public static int getKthToLastElementOptimized(Node head, int k) {
+        if (k <= 0) {
+            return -1;
+        }
+        Node first = head;
+        for (int i = 0; i < k-1; i++) {
+            first = first.next;
+        }
+
+        Node second = head;
+        while (first.next != null) {
+            first = first.next;
+            second = second.next;
+        }
+
+        return second.data;
     }
 
     public static int getKthToLastElement(Node head, int k) {
