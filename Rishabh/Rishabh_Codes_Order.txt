@@ -1,0 +1,5 @@
+## DSA Practice Questions - Rishabh
+
+### Compiled list of questions
+|Date|Question Summary|Link|Solution|
+|----|----------------|----|--------|
