@@ -4,4 +4,4 @@
 
 | Date | Question Summary | Category/Tags | Link | Solution |
 | ---- | ---------------- | -------- | ---- | -------- |
-| 2022/05/24 | Increasing Decreasing String | [`Strings`](https://github.com/himanshu-ckh/DSA/tree/master/Rishabh/Strings) `Hashmaps`| [Leetcode](https://leetcode.com/problems/increasing-decreasing-string/) | [File](https://github.com/himanshu-ckh/DSA/blob/master/Rishabh/Strings/increasingDecreasingStrings.py) |
+| 2022/05/24 | Increasing Decreasing String | [`Strings`](Strings) `Hashmaps`| [Leetcode](https://leetcode.com/problems/increasing-decreasing-string/) | [File](Strings/increasingDecreasingStrings.py) |
