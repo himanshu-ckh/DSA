@@ -31,3 +31,34 @@ Output: "art"
 Explanation: The word "rat" becomes "art" after re-ordering it with the mentioned algorithm.
 """
 
+from collections import Counter
+
+class Solution:
+    def sortString(self, s: str) -> str:
+        alphabetCounter = dict(Counter(s))
+        presentChars = list(sorted(alphabetCounter.keys()))
+        result = ""
+        while len(alphabetCounter) > 0:
+            for letter in presentChars:
+                if letter in alphabetCounter:
+                    result += letter
+                    alphabetCounter[letter] -= 1
+                    if  alphabetCounter[letter] == 0:
+                        del alphabetCounter[letter]
+            for letter in reversed(presentChars) :
+                if letter in alphabetCounter:
+                    result += letter
+                    alphabetCounter[letter] -= 1
+                    if  alphabetCounter[letter] == 0:
+                        del alphabetCounter[letter]
+        return result
+
+"""
+TC: O(n), SC: O(n)
+Explanation:
+
+1. Using a hashmap, calculate the occurence of each letter in the input string.
+2. First, iterate in ascending order of input keys, and append each letter to the output string.
+3. Second, iterate in descending order of input keys and append each key to result.
+4. Repeat steps 2 and 3 till the counter is 0 for each letter.
+"""
