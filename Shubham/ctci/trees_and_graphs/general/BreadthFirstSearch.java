@@ -1,4 +1,4 @@
-package ctci.trees_and_graphs;
+package ctci.trees_and_graphs.general;
 
 
 import ctci.trees_and_graphs.structure.Graph;
@@ -6,7 +6,7 @@ import ctci.trees_and_graphs.structure.Graph;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class TreesAndGraphs1 {
+public class BreadthFirstSearch {
     public static void bfs(int source, Graph graph) {
         boolean[] visited = new boolean[graph.vertices];
         Queue<Integer> queue = new LinkedList<>();

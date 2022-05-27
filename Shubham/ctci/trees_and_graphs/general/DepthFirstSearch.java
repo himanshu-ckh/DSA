@@ -1,10 +1,10 @@
-package ctci.trees_and_graphs;
+package ctci.trees_and_graphs.general;
 
 import ctci.trees_and_graphs.structure.Graph;
 
 import java.util.LinkedList;
 
-public class TreesAndGraphs2 {
+public class DepthFirstSearch {
     public static void dfs(int source, Graph graph) {
         boolean[] visited = new boolean[graph.vertices];
 
