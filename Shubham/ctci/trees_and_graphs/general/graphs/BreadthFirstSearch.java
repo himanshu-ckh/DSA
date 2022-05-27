@@ -1,4 +1,4 @@
-package ctci.trees_and_graphs.general;
+package ctci.trees_and_graphs.general.graphs;
 
 
 import ctci.trees_and_graphs.structure.Graph;
