@@ -12,3 +12,4 @@
 | 6 | 2022/05/30 | Tournament Winner | [`Arrays`](Arrays) `Hashmaps`| [Algoexpert](https://www.algoexpert.io/questions/tournament-winner) | [File](Arrays/tournamentWinner.py) |
 | 7 | 2022/05/31 | Kadane's Algorithm | [`Arrays`](Arrays) | [Algoexpert](https://www.algoexpert.io/questions/kadane's-algorithm) | [File](Arrays/kadanesAlgorithm.py) |
 | 8 | 2022/06/01 | Smallest Difference | [`Arrays`](Arrays) | [Algoexpert](https://www.algoexpert.io/questions/smallest-difference) | [File](Arrays/smallestDifference.py) |
+| 9 | 2022/06/02 | Array of Products | [`Arrays`](Arrays) | [Algoexpert](https://www.algoexpert.io/questions/array-of-products) | [File](Arrays/arrayOfProducts.py) |
