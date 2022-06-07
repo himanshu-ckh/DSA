@@ -14,3 +14,5 @@
 | 8 | 2022/06/01 | Smallest Difference | [`Arrays`](Arrays) | [Algoexpert](https://www.algoexpert.io/questions/smallest-difference) | [File](Arrays/smallestDifference.py) |
 | 9 | 2022/06/02 | Array of Products | [`Arrays`](Arrays) | [Algoexpert](https://www.algoexpert.io/questions/array-of-products) | [File](Arrays/arrayOfProducts.py) |
 | 10 | 2022/06/03 | Reverse Words In String | [`Strings`](Strings) [`Arrays`](Arrays) | [Algoexpert](https://www.algoexpert.io/questions/reverse-words-in-string) | [File](Strings/reverseWordsInString.py) |
+| 11 | 2022/06/06 | Breadth-First Search | [`Graphs`](Graphs) | [Algoexpert](https://www.algoexpert.io/questions/breadth-first-search) | [File](Graphs/breadthFirstSearch.py) |
+| 12 | 2022/06/06 | Depth-First Search | [`Graphs`](Graphs) | [Algoexpert](https://www.algoexpert.io/questions/depth-first-search) | [File](Graphs/depthFirstSearch.py) |
