@@ -1,7 +1,13 @@
 package Himanshu.ctcci.ArraysAndString;
 
 import java.util.HashSet;
+//https://leetcode.com/problems/set-matrix-zeroes/submissions/
 
+/*
+In this we use a hashSet and store the value of row and col where we see a 0
+Once we update the hashset we iterate through the matrix again and if we encounter the value in the hashset for row and col
+we change that index to 0
+ */
 public class SetMatrixZeros_73 {
     static class Solution {
         public void setZeroes(int[][] matrix) {
